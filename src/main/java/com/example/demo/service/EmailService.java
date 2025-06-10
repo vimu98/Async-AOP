@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmailService {
 
-    @Async
+
     public void sendEmail(String mail) {
 
         System.out.println("sending email to " + mail);
